@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "outDir": "dist",
+    "target": "ES2016",
+    "module": "CommonJS",
+    "jsx": "preserve",
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+}
