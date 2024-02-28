@@ -13,8 +13,10 @@ checkConstantString("this is a constant")
 
 // ## Convert string into a constant
 
-const s = "this is a constant"
-checkConstantString(s)
+const person = {
+  name: "this is a constant" as const
+}
+checkConstantString(person.name)
 
 
 
